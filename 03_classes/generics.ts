@@ -18,6 +18,9 @@ function identityOne(val : boolean|number) : number| boolean{
 function identityTwo<Type>(val: Type):Type{
     return val
 }
+function identityFour<T>(val:T): T { //simpler syntax for generics
+    return val
+}
 
 interface Bottle{
     brand:string,
