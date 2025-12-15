@@ -10,3 +10,18 @@ var user1 = {
     email: "wick@yahoo.com"
 };
 createUser(user1);
+/*
+=> type (Type Alias)
+
+> Describes the shape of data
+> Exists only at compile time
+> No runtime output in JavaScript
+
+
+=> class
+
+> A blueprint for objects
+> Exists at runtime
+> Can create instances using new
+
+*/ 
